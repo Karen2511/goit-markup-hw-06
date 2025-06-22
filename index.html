@@ -31,9 +31,7 @@
               >
             </li>
             <li class="header-nav__item">
-              <a class="header-nav__link link" href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="header-nav__link link" href="">Portfolio</a>
             </li>
             <li class="header-nav__item">
               <a class="header-nav__link link" href="">Contacts</a>
@@ -231,41 +229,6 @@
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="works">
-        <div class="container">
-          <h2 class="works__title">What are we doing</h2>
-          <ul class="works__list list">
-            <li class="works__item">
-              <img
-                class="works__image"
-                srcset="./images/02-work/work-01-2x.jpg 2x"
-                src="./images/02-work/work-01-1x.jpg"
-                alt="computer-monitor"
-                width="360"
-              />
-            </li>
-            <li class="works__item">
-              <img
-                class="works__image"
-                srcset="./images/02-work/work-02-2x.jpg 2x"
-                src="./images/02-work/work-02-1x.jpg"
-                alt="phone-application"
-                width="360"
-              />
-            </li>
-            <li class="works__item">
-              <img
-                class="works__image"
-                srcset="./images/02-work/work-03-2x.jpg 2x"
-                src="./images/02-work/work-03-1x.jpg"
-                alt="laptop-and-phone"
-                width="360"
-              />
             </li>
           </ul>
         </div>
@@ -530,75 +493,274 @@
           </ul>
         </div>
       </section>
-      <section class="customers">
-        <div class="customers__container container">
-          <h2 class="customers__title">Customers</h2>
-          <ul class="customers__list list">
-            <li class="customers__item">
-              <a href="" class="customers__link"
-                ><svg
-                  class="customers__icon"
-                  aria-label="customers-icons"
-                  width="104"
-                  height="56"
-                >
-                  <use href="./images/icons.svg#customers-logo-1"></use></svg
-              ></a>
+      <section class="gallery">
+        <div class="container">
+          <h1 class="team__title">Our Portfolio</h1>
+
+          <ul class="gallery__list list">
+            <li class="gallery__item item-js" data-tag="applications">
+              <a class="gallery__link link" tabindex="0">
+                <div class="gallery__overley-wrapper">
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/04-gallery/gallery-01-desktop-1x.jpg 1x,
+                        ./images/04-gallery/gallery-01-desktop-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/04-gallery/gallery-01-tablet-1x.jpg 1x,
+                        ./images/04-gallery/gallery-01-tablet-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/04-gallery/gallery-01-mobile-1x.jpg 1x,
+                        ./images/04-gallery/gallery-01-mobile-2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="gallery__image"
+                      src="./images/04-gallery/gallery-01-desktop-1x.jpg"
+                      alt="Banking App Interface Concept"
+                      width="360"
+                    />
+                  </picture>
+                  <p class="gallery__overley-text">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="gallery__wrapper">
+                  <h2 class="gallery__title">Banking App Interface Concept</h2>
+                  <p class="gallery__text">App</p>
+                </div>
+              </a>
             </li>
-            <li class="customers__item">
-              <a href="" class="customers__link"
-                ><svg
-                  class="customers__icon"
-                  aria-label="customers-icons"
-                  width="104"
-                  height="56"
-                >
-                  <use href="./images/icons.svg#customers-logo-2"></use></svg
-              ></a>
+            <li class="gallery__item item-js" data-tag="marketing">
+              <a class="gallery__link link" tabindex="0">
+                <div class="gallery__overley-wrapper">
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/04-gallery/gallery-02-desktop-1x.jpg 1x,
+                        ./images/04-gallery/gallery-02-desktop-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/04-gallery/gallery-02-tablet-1x.jpg 1x,
+                        ./images/04-gallery/gallery-02-tablet-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/04-gallery/gallery-02-mobile-1x.jpg 1x,
+                        ./images/04-gallery/gallery-02-mobile-2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="gallery__image"
+                      src="./images/04-gallery/gallery-02-desktop-1x.jpg"
+                      alt="Cashless Payment"
+                      width="360"
+                    />
+                  </picture>
+                  <p class="gallery__overley-text">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="gallery__wrapper">
+                  <h2 class="gallery__title">Cashless Payment</h2>
+                  <p class="gallery__text">Marketing</p>
+                </div>
+              </a>
             </li>
-            <li class="customers__item">
-              <a href="" class="customers__link"
-                ><svg
-                  class="customers__icon"
-                  aria-label="customers-icons"
-                  width="104"
-                  height="56"
-                >
-                  <use href="./images/icons.svg#customers-logo-3"></use></svg
-              ></a>
+            <li class="gallery__item item-js" data-tag="applications">
+              <a class="gallery__link link" tabindex="0">
+                <div class="gallery__overley-wrapper">
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/04-gallery/gallery-03-desktop-1x.jpg 1x,
+                        ./images/04-gallery/gallery-03-desktop-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/04-gallery/gallery-03-tablet-1x.jpg 1x,
+                        ./images/04-gallery/gallery-03-tablet-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/04-gallery/gallery-03-mobile-1x.jpg 1x,
+                        ./images/04-gallery/gallery-03-mobile-2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="gallery__image"
+                      src="./images/04-gallery/gallery-03-desktop-1x.jpg"
+                      alt="Meditation App"
+                      width="360"
+                    />
+                  </picture>
+                  <p class="gallery__overley-text">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="gallery__wrapper">
+                  <h2 class="gallery__title">Meditation App</h2>
+                  <p class="gallery__text">App</p>
+                </div>
+              </a>
             </li>
-            <li class="customers__item">
-              <a href="" class="customers__link"
-                ><svg
-                  class="customers__icon"
-                  aria-label="customers-icons"
-                  width="104"
-                  height="56"
-                >
-                  <use href="./images/icons.svg#customers-logo-4"></use></svg
-              ></a>
+            <li class="gallery__item item-js" data-tag="marketing">
+              <a class="gallery__link link" tabindex="0">
+                <div class="gallery__overley-wrapper">
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/04-gallery/gallery-04-desktop-1x.jpg 1x,
+                        ./images/04-gallery/gallery-04-desktop-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/04-gallery/gallery-04-tablet-1x.jpg 1x,
+                        ./images/04-gallery/gallery-04-tablet-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/04-gallery/gallery-04-mobile-1x.jpg 1x,
+                        ./images/04-gallery/gallery-04-mobile-2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="gallery__image"
+                      src="./images/04-gallery/gallery-04-desktop-1x.jpg"
+                      alt="Taxi Service"
+                      width="360"
+                    />
+                  </picture>
+                  <p class="gallery__overley-text">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="gallery__wrapper">
+                  <h2 class="gallery__title">Taxi Service</h2>
+                  <p class="gallery__text">Marketing</p>
+                </div>
+              </a>
             </li>
-            <li class="customers__item">
-              <a href="" class="customers__link"
-                ><svg
-                  class="customers__icon"
-                  aria-label="customers-icons"
-                  width="104"
-                  height="56"
-                >
-                  <use href="./images/icons.svg#customers-logo-5"></use></svg
-              ></a>
+            <li class="gallery__item item-js" data-tag="design">
+              <a class="gallery__link link" tabindex="0">
+                <div class="gallery__overley-wrapper">
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/04-gallery/gallery-05-desktop-1x.jpg 1x,
+                        ./images/04-gallery/gallery-05-desktop-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/04-gallery/gallery-05-tablet-1x.jpg 1x,
+                        ./images/04-gallery/gallery-05-tablet-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/04-gallery/gallery-05-mobile-1x.jpg 1x,
+                        ./images/04-gallery/gallery-05-mobile-2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="gallery__image"
+                      src="./images/04-gallery/gallery-05-desktop-1x.jpg"
+                      alt="Screen Illustrations"
+                      width="360"
+                    />
+                  </picture>
+                  <p class="gallery__overley-text">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="gallery__wrapper">
+                  <h2 class="gallery__title">Screen Illustrations</h2>
+                  <p class="gallery__text">Design</p>
+                </div>
+              </a>
             </li>
-            <li class="customers__item">
-              <a href="" class="customers__link"
-                ><svg
-                  class="customers__icon"
-                  aria-label="customers-icons"
-                  width="104"
-                  height="56"
-                >
-                  <use href="./images/icons.svg#customers-logo-6"></use></svg
-              ></a>
+            <li class="gallery__item item-js" data-tag="marketing">
+              <a class="gallery__link link" tabindex="0">
+                <div class="gallery__overley-wrapper">
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/04-gallery/gallery-06-desktop-1x.jpg 1x,
+                        ./images/04-gallery/gallery-06-desktop-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/04-gallery/gallery-06-tablet-1x.jpg 1x,
+                        ./images/04-gallery/gallery-06-tablet-2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/04-gallery/gallery-06-mobile-1x.jpg 1x,
+                        ./images/04-gallery/gallery-06-mobile-2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="gallery__image"
+                      src="./images/04-gallery/gallery-06-desktop-1x.jpg"
+                      alt="Online Courses"
+                      width="360"
+                    />
+                  </picture>
+                  <p class="gallery__overley-text">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="gallery__wrapper">
+                  <h2 class="gallery__title">Online Courses</h2>
+                  <p class="gallery__text">Marketing</p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
